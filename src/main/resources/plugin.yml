@@ -1,0 +1,5 @@
+name: CustomCrafting
+version: '${project.version}'
+main: me.waterbroodje.customcrafting.CustomCrafting
+api-version: 1.19
+authors: [Waterbroodje]

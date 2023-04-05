@@ -1,0 +1,28 @@
+# recipes for CustomCrafting 1.0.0
+
+recipes:
+  elytra:
+    name: Elytra
+    type: CRAFTING_TABLE
+    shape:
+      - "PPP"
+      - "III"
+      - " E "
+    ingredients:
+      P: PHANTOM_MEMBRANE
+      I: IRON_INGOT
+      E: END_ROD
+    result:
+      item: ELYTRA
+      amount: 1
+  BLAZE_ROD:
+    name: Blaze Rod
+    type: INVENTORY
+    shape:
+      - "BBB"
+      - "BBB"
+    ingredients:
+      B: BLAZE_POWDER
+    result:
+      item: BLAZE_ROD
+      amount: 1
